@@ -1,1 +1,9 @@
-
+public class j {
+public static void main(String[] args) {
+System.out.printf("%5s%5s%5s\n", "a", "a^2", "a^3");
+System.out.printf("%5d%5d%5d\n", 1, 1 * 1, 1 * 1 * 1);
+System.out.printf("%5d%5d%5d\n", 2, 2 * 2, 2 * 2 * 2);
+System.out.printf("%5d%5d%5d\n", 3, 3 * 3, 3 * 3 * 3);
+System.out.printf("%5d%5d%5d\n", 4, 4 * 4, 4 * 4 * 4);
+}
+}
