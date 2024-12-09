@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Exercise6 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter the monthly saving amount: ");
+        double monthlySavingAmount = input.nextDouble();
+
+        final double interestRate = 0.00417; 
+        double accountValue = 0;
+
+        for (int i = 0; i < 6; i++) {
+            accountValue = (accountValue + monthlySavingAmount) * (1 + interestRate);
+        }
+
+        System.out.printf("After the sixth month, the account value is $%.2f", accountValue);
+    }
+}
